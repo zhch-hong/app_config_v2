@@ -1,0 +1,120 @@
+[
+  {
+    "key": "duiju",
+    "title": "对局类型任务==",
+    "children": [
+      {
+        "key": "game_module",
+        "title": "对局的模式",
+        "children": [
+          { "key": "freestyle", "title": "自由场====", "type": "value" },
+          { "key": "matchstyle", "title": "比赛场", "type": "value" },
+          { "key": "naming_qys", "title": "千元赛", "type": "value" }
+        ],
+        "type": "condition"
+      },
+      {
+        "key": "game_level",
+        "title": "游戏等级",
+        "children": [
+          { "key": "1", "title": "场次1（新手场）", "type": "value" },
+          { "key": "2", "title": "场次2（三星场）", "type": "value" },
+          { "key": "3", "title": "场次3", "type": "value" },
+          { "key": "4", "title": "场次4", "type": "value" },
+          { "key": "5", "title": "场次5", "type": "value" }
+        ],
+        "type": "condition"
+      },
+      {
+        "key": "game_type",
+        "title": "游戏类型",
+        "children": [
+          {
+            "key": "nor_mj_xzdd_er_7",
+            "title": "二人7张麻将",
+            "type": "value"
+          },
+          { "key": "nor_mj_xzdd", "title": "血战麻将", "type": "value" },
+          { "key": "nor_ddz_nor", "title": "经典斗地主", "type": "value" },
+          { "key": "nor_ddz_er", "title": "二人斗地主", "type": "value" },
+          { "key": "nor_ddz_boom", "title": "炸弹斗地主", "type": "value" },
+          { "key": "no65r_gobang_nor", "title": "五子棋", "type": "value" },
+          { "key": "nor_pdk_nor", "title": "跑得快", "type": "value" }
+        ],
+        "type": "condition"
+      },
+      {
+        "key": "game_success",
+        "title": "对局是否赢钱",
+        "children": [
+          { "key": "1", "title": "是", "type": "value" },
+          { "key": "0", "title": "否", "type": "value" }
+        ],
+        "type": "condition"
+      },
+      { "key": "game_id", "title": "游戏id", "type": "condition" }
+    ],
+    "type": "source"
+  },
+  { "key": "freestyle_game_award", "title": "自由场赢金", "type": "source" },
+  {
+    "key": "exchange_by_hongbao",
+    "title": "兑换商城兑换红包",
+    "type": "source"
+  },
+  {
+    "key": "share_game",
+    "title": "分享游戏",
+    "children": [
+      {
+        "key": "share_type",
+        "title": "分享类型",
+        "children": [
+          { "key": "game", "title": "朋友圈", "type": "value" },
+          { "key": "shared_friend", "title": "朋友", "type": "value" }
+        ],
+        "type": "condition"
+      }
+    ],
+    "type": "source"
+  },
+  {
+    "key": "zajindan_award",
+    "title": "普通模式-砸金蛋赢金",
+    "children": [
+      { "key": "award_value", "title": "奖励值", "type": "condition" },
+      {
+        "key": "hammer_id",
+        "title": "锤子的等级",
+        "children": [
+          { "key": "1", "title": "1-木锤子", "type": "value" },
+          { "key": "2", "title": "2-铜锤子", "type": "value" },
+          { "key": "3", "title": "3-银锤子", "type": "value" },
+          { "key": "4", "title": "4-金锤子", "type": "value" }
+        ],
+        "type": "condition"
+      }
+    ],
+    "type": "source"
+  },
+  {
+    "key": "zajindan_game_num",
+    "title": "普通模式-砸金蛋次数==",
+    "children": [
+      { "key": "award_value", "title": "奖励值", "type": "condition" },
+      {
+        "key": "hammer_id",
+        "title": "锤子的等级",
+        "children": [
+          { "key": "1", "title": "1-木锤子", "type": "value" },
+          { "key": "2", "title": "2-铜锤子", "type": "value" },
+          { "key": "3", "title": "3-银锤子", "type": "value" },
+          { "key": "4", "title": "4-金锤子", "type": "value" }
+        ],
+        "type": "condition"
+      },
+      { "key": "award_id", "title": "奖励id", "type": "condition" }
+    ],
+    "type": "source"
+  }
+]
